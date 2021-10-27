@@ -1,14 +1,12 @@
-import type { ViteBundlerOptions } from '@vuepress/bundler-vite'
 import { defineUserConfig } from 'vuepress'
-import type { DefaultThemeOptions } from 'vuepress'
+import type { ViteBundlerOptions } from '@vuepress/bundler-vite'
+import type { StarThemeOptions } from '@starzkg/vuepress-theme-star'
 
-const { path } = require('@vuepress/utils')
-
-export default defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
+export default defineUserConfig<StarThemeOptions, ViteBundlerOptions>({
   lang: 'zh-CN',
   title: 'Starzkg',
   description: 'Just playing around',
-  theme: path.resolve(__dirname, './theme'),
+  theme: '@starzkg/star',
   themeConfig: {
     logo: 'https://vuejs.org/images/logo.png',
   },
