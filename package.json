@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "shentuzhigang",
   "scripts": {
-    "build": "cd .vuepress/theme && yarn install && yarn copy && yarn build && cd ../../ && rm -rf node_modules/@starzkg/vuepress-theme-star/tsconfig**.json && yarn upgrade @starzkg/vuepress-theme-star",
+    "build": "cd .vuepress/theme && yarn install && yarn copy && yarn build && cd ../../ && yarn upgrade @starzkg/vuepress-theme-star && rm -rf node_modules/@starzkg/vuepress-theme-star/tsconfig**.json",
     "docs:dev": "vuepress dev .",
     "docs:build": "vuepress build .",
     "docs:release": "yarn build && yarn docs:build"
