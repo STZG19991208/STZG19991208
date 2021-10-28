@@ -1,23 +1,21 @@
 {
   "name": "site-shentuzhigang",
   "version": "1.0.0",
-  "description": "shentuzhigang.github.io",
-  "main": "index.js",
+  "description": "shentuzhigang",
   "scripts": {
     "docs:dev": "vuepress dev .",
-    "docs:build": "vuepress build .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "docs:build": "vuepress build ."
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shentuzhigang/shentuzhigang.github.io.git"
+    "url": "git+https://github.com/shentuzhigang/shentuzhigang.git"
   },
   "author": "Starzkg",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/shentuzhigang/shentuzhigang.github.io/issues"
+    "url": "https://github.com/shentuzhigang/shentuzhigang/issues"
   },
-  "homepage": "https://github.com/shentuzhigang/shentuzhigang.github.io#README.md",
+  "homepage": "https://github.com/shentuzhigang/shentuzhigang#README.md",
   "devDependencies": {
     "vuepress": "^2.0.0-beta.26",
     "vuepress-vite": "^2.0.0-beta.26",
