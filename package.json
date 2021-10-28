@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "shentuzhigang",
   "scripts": {
+    "build": "cd .vuepress/theme && yarn install && yarn copy && yarn build && cd ../../ && rm -rf node_modules/@starzkg/vuepress-theme-star/tsconfig**.json && yarn upgrade @starzkg/vuepress-theme-star",
     "docs:dev": "vuepress dev .",
-    "docs:build": "vuepress build ."
+    "docs:build": "vuepress build .",
+    "docs:release": "yarn build && yarn docs:build"
   },
   "repository": {
     "type": "git",
@@ -17,8 +19,8 @@
   },
   "homepage": "https://github.com/shentuzhigang/shentuzhigang#README.md",
   "devDependencies": {
+    "@starzkg/vuepress-theme-star": "file:.vuepress/theme/packages/@starzkg/vuepress-theme-star",
     "vuepress": "^2.0.0-beta.26",
-    "vuepress-vite": "^2.0.0-beta.26",
-    "@starzkg/vuepress-theme-star": "file:.vuepress/theme/packages/@starzkg/vuepress-theme-star"
+    "vuepress-vite": "^2.0.0-beta.26"
   }
 }
