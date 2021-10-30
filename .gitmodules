@@ -1,4 +1,0 @@
-[submodule ".vuepress/theme"]
-	path = .vuepress/theme
-	url = https://github.com/shentuzhigang/vuepress-theme-star.git
-	branch = main
