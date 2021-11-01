@@ -1,5 +1,8 @@
 {
   "private": true,
+  "workspaces": [
+    ".vuepress/theme/packages/@starzkg/*"
+  ],
   "scripts": {
     "docs:dev": "vuepress dev .",
     "docs:build": "vuepress build ."
@@ -15,7 +18,7 @@
   },
   "homepage": "https://github.com/shentuzhigang/shentuzhigang#README.md",
   "devDependencies": {
-    "@starzkg/vuepress-theme-star": "1.0.0-beta.4",
+    "@starzkg/vuepress-theme-star": "1.0.0-beta.5",
     "vuepress": "^2.0.0-beta.27",
     "vuepress-vite": "^2.0.0-beta.27"
   }
