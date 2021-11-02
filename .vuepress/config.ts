@@ -8,6 +8,6 @@ export default defineUserConfig<StarThemeOptions, ViteBundlerOptions>({
   description: 'Just playing around',
   theme: '@starzkg/star',
   themeConfig: {
-    logo: 'https://vuejs.org/images/logo.png',
+    logo: '/logo.png',
   },
 })
