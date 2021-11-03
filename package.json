@@ -4,8 +4,8 @@
     ".vuepress/theme/packages/@starzkg/*"
   ],
   "scripts": {
-    "docs:dev": "vuepress dev .",
-    "docs:build": "vuepress build ."
+    "docs:dev": "vuepress dev . --clean-cache",
+    "docs:build": "vuepress build . --clean-cache"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/shentuzhigang/shentuzhigang#README.md",
   "devDependencies": {
-    "@starzkg/vuepress-theme-star": "1.0.0-beta.9",
+    "@starzkg/vuepress-theme-star": "1.0.0-beta.10",
     "vuepress": "^2.0.0-beta.27",
     "vuepress-vite": "^2.0.0-beta.27"
   }

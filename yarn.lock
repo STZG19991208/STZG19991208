@@ -246,13 +246,13 @@
     ts-debounce "^3.0.0"
     vue "^3.2.20"
 
-"@starzkg/vuepress-plugin-markdown-enhance@1.0.0-beta.9":
-  version "1.0.0-beta.9"
-  resolved "https://registry.yarnpkg.com/@starzkg/vuepress-plugin-markdown-enhance/-/vuepress-plugin-markdown-enhance-1.0.0-beta.9.tgz#591515d8857e7e76f5d25aefbf95f84caeaedd03"
-  integrity sha512-0FB55tILzmP60NkbW2JR0Uo5XkvvJ1lV6P4VHLTSmh4lZszUJE1gvaHOB7r+MURjLNfYYaVG6XFUCNvbc+pyTA==
+"@starzkg/vuepress-plugin-markdown-enhance@1.0.0-beta.10":
+  version "1.0.0-beta.10"
+  resolved "https://registry.yarnpkg.com/@starzkg/vuepress-plugin-markdown-enhance/-/vuepress-plugin-markdown-enhance-1.0.0-beta.10.tgz#b9fcb82b4cf7feba7810493c07337aebee0296fa"
+  integrity sha512-hWiwntV724nzL74msY5MNwjs1wksOp9H0XkOqkcuCq8otclrqLGSYgecz2PVUVSqWXhmRhRl7VK8NfBn3NOA+Q==
   dependencies:
     "@babel/core" "*"
-    "@starzkg/vuepress-shared" "1.0.0-beta.8"
+    "@starzkg/vuepress-shared" "1.0.0-beta.10"
     "@types/katex" "^0.11.1"
     "@types/markdown-it" "^12.2.3"
     "@types/mermaid" "^8.2.7"
@@ -268,10 +268,10 @@
     vue-router "^4.0.12"
     vuepress-plugin-sass-palette "2.0.0-alpha.7"
 
-"@starzkg/vuepress-shared@1.0.0-beta.8":
-  version "1.0.0-beta.8"
-  resolved "https://registry.yarnpkg.com/@starzkg/vuepress-shared/-/vuepress-shared-1.0.0-beta.8.tgz#6431f6a5286973409d12c53e52c4e99250fbd21e"
-  integrity sha512-wmIOjck2ek/mufIMTobE5ZzcadsezGfgKjyUKD/vNVupBg+o01rHqPpmR4UR+CoW35QB+Mg3I893Pay5FiW/gQ==
+"@starzkg/vuepress-shared@1.0.0-beta.10":
+  version "1.0.0-beta.10"
+  resolved "https://registry.yarnpkg.com/@starzkg/vuepress-shared/-/vuepress-shared-1.0.0-beta.10.tgz#a6d050540a9c2b4229091475034b65b777ca26c8"
+  integrity sha512-aDCMVS/W2qQt2E+9E0YQL+67PXfMtc6kBXRQaLi7ltJ4MsIm164EelDm4QHS7iRdd40epeZ5OHpfTVkXYLXXrQ==
   dependencies:
     "@types/webpack-dev-server" "^4.3.1"
     "@vuepress/client" "2.0.0-beta.27"
@@ -282,13 +282,13 @@
     ora "5.4.1"
     vue "^3.2.20"
 
-"@starzkg/vuepress-theme-star@1.0.0-beta.9":
-  version "1.0.0-beta.9"
-  resolved "https://registry.yarnpkg.com/@starzkg/vuepress-theme-star/-/vuepress-theme-star-1.0.0-beta.9.tgz#f6d071c22ad874dd88aa81aee99f14cca9af7833"
-  integrity sha512-cvnEzNIFNLGGymOdtXIOn+0Im0g+R1/qRrjoNf4DBhQAIRxGb/CCeuuv5cN/IUoQTNuJovTJhFBO1IO/0sSjRA==
+"@starzkg/vuepress-theme-star@1.0.0-beta.10":
+  version "1.0.0-beta.10"
+  resolved "https://registry.yarnpkg.com/@starzkg/vuepress-theme-star/-/vuepress-theme-star-1.0.0-beta.10.tgz#803615a25f3cda40c3f9217669caf4e39429deb2"
+  integrity sha512-0Ze4jIW/6SizQwPKDOmYHzZcdKa7I8t+KitxnpiK2RIuRWnmznb4ZqgtocM3ro55NRtp/1lSxPw6VquMFtJfpA==
   dependencies:
     "@starzkg/vuepress-plugin-github-corner" "1.0.0-beta.7"
-    "@starzkg/vuepress-plugin-markdown-enhance" "1.0.0-beta.9"
+    "@starzkg/vuepress-plugin-markdown-enhance" "1.0.0-beta.10"
     "@vuepress/client" "2.0.0-beta.27"
     "@vuepress/core" "2.0.0-beta.27"
     "@vuepress/plugin-active-header-links" "2.0.0-beta.27"
