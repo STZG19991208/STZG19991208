@@ -1,8 +1,7 @@
 ---
 page: Home
-title: Home
 heroImage: /images/hero.png
-footerHTML: <a href="http://beian.miit.gov.cn/" target="_blank">浙ICP备19031217号</a> MIT Licensed | Copyright © 2021-present Starzkg
+footerHtml: <a href="http://beian.miit.gov.cn/" target="_blank">浙ICP备19031217号</a> MIT Licensed | Copyright © 2021-present Starzkg
 ---
 - 👋 Hi, I’m @shentuzhigang
 - 👀 I’m interested in ...
