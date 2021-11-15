@@ -1,8 +1,5 @@
 {
   "private": true,
-  "workspaces": [
-    ".vuepress/theme/packages/@starzkg/*"
-  ],
   "scripts": {
     "docs:dev": "vuepress dev . --clean-cache",
     "docs:build": "vuepress build . --clean-cache"
@@ -19,6 +16,9 @@
   "homepage": "https://github.com/shentuzhigang/shentuzhigang#README.md",
   "devDependencies": {
     "@starzkg/vuepress-theme-star": "1.0.0-beta.15",
+    "@vuepress/plugin-docsearch": "^2.0.0-beta.27",
+    "@vuepress/plugin-google-analytics": "^2.0.0-beta.27",
+    "@vuepress/plugin-shiki": "^2.0.0-beta.27",
     "vuepress": "^2.0.0-beta.27",
     "vuepress-vite": "^2.0.0-beta.27"
   }
