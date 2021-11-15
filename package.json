@@ -15,6 +15,9 @@
   },
   "homepage": "https://github.com/shentuzhigang/shentuzhigang#README.md",
   "devDependencies": {
+    "@babel/core": "7.16.0",
+    "@babel/plugin-transform-modules-commonjs": "7.16.0",
+    "@babel/preset-env": "7.16.0",
     "@starzkg/vuepress-theme-star": "1.0.0-beta.15",
     "@vuepress/plugin-docsearch": "^2.0.0-beta.27",
     "@vuepress/plugin-google-analytics": "^2.0.0-beta.27",
