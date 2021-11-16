@@ -35,7 +35,7 @@ export default defineUserConfig<StarThemeOptions, ViteBundlerOptions>({
         selectLanguageAriaLabel: '选择语言',
 
         // sidebar
-        //sidebar: sidebar.zh,
+        sidebar: {},
 
         // page meta
         editLinkText: '在 GitHub 上编辑此页',
@@ -70,6 +70,9 @@ export default defineUserConfig<StarThemeOptions, ViteBundlerOptions>({
       '/en/': {
         // navbar
         // navbar: navbar.en,
+        selectLanguageName: 'English',
+        selectLanguageText: 'Language',
+        selectLanguageAriaLabel: 'Language',
 
         // sidebar
         // sidebar: sidebar.en,
@@ -104,7 +107,7 @@ export default defineUserConfig<StarThemeOptions, ViteBundlerOptions>({
       '@vuepress/plugin-google-analytics',
       {
         // we have multiple deployments, which would use different id
-        id: process.env.DOCS_GA_ID,
+        id: process.env.GA_ID,
       },
     ],
     // only enable shiki plugin in production mode
