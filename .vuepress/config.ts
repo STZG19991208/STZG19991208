@@ -110,6 +110,12 @@ export default defineUserConfig<StarThemeOptions, ViteBundlerOptions>({
         id: process.env.GA_ID,
       },
     ],
+    [
+      '@starzkg/baidu-analytics',
+      {
+        id: process.env.BA_ID,
+      },
+    ],
     // only enable shiki plugin in production mode
     [
       '@vuepress/plugin-shiki',
