@@ -88,6 +88,7 @@ export default defineUserConfig<StarThemeOptions, ViteBundlerOptions>({
       // use vite in dev, use webpack in prod
       (isProd ? '@vuepress/webpack' : '@vuepress/vite'),
   plugins: [
+    ['@vuepress/plugin-debug'],
     [
       '@vuepress/plugin-docsearch',
       {
