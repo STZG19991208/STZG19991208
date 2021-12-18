@@ -1,6 +1,7 @@
 import { defineUserConfig } from 'vuepress'
 import type { ViteBundlerOptions } from '@vuepress/bundler-vite'
 import type { StarThemeOptions } from '@starzkg/vuepress-theme-star'
+import { path } from '@vuepress/utils'
 const isProd = process.env.NODE_ENV === 'production'
 export default defineUserConfig<StarThemeOptions, ViteBundlerOptions>({
   lang: 'zh-CN',
@@ -115,6 +116,12 @@ export default defineUserConfig<StarThemeOptions, ViteBundlerOptions>({
       '@starzkg/baidu-analytics',
       {
         id: process.env.BA_ID,
+      },
+    ],
+    [
+      '@vuepress/plugin-register-components',
+      {
+        componentsDir: path.resolve(__dirname, './components'),
       },
     ],
     // only enable shiki plugin in production mode
