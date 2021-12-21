@@ -4,10 +4,16 @@ heroImage: /images/hero.png
 links: 
   - text: QQ
     icon: qq
-    url: tencent://message/?uin=1600337300
-  - text: QQ空间
+    url: http://wpa.qq.com/msgrd?v=3&uin=1600337300&site=qq&menu=yes  
+  - text: QZone
     icon: qzone
-    url: https://1600337300.qzone.qq.com
+    url: https://1600337300.qzone.qq.com  
+  - text: Wechat
+    icon: Wechat
+    url: #  
+  - text: WechatFriend
+    icon: WechatFriend
+    url: #
   - text: CSDN
     icon: csdn
     url: https://shentuzhigang.blog.csdn.net
@@ -16,26 +22,28 @@ links:
     url: https://github.com/shentuzhigang  
   - text: Gitee
     icon: Gitee
-    url: https://gitee.com/shentuzhigang
-  - text: 邮箱
-    icon: Email
-    url: mailto:shentuzhigang@shentuzhigang.cn    
-  - text: 知乎
+    url: https://gitee.com/shentuzhigang  
+  - text: Gmail
+    icon: Gmail
+    url: mailto:stzg19991208@gmail.com  
+  - text: Zhihu
     icon: Zhihu
     url: https://www.zhihu.com/people/shen-tu-zhi-gang  
-  - text: 微博
+  - text: Weibo
     icon: Weibo
     url: https://weibo.com/u/5428963803  
   - text: Steam
     icon: Steam
     url: https://weibo.com/u/5428963803
-  - text: 推特
+  - text: Twitter
     icon: Twitter
     url: #  
+  - text: Instagram
+    icon: Instagram
+    url: #
 footer: <a href="http://beian.miit.gov.cn/" target="_blank">浙ICP备19031217号</a> | MIT Licensed | Copyright © 2021-present Starzkg
 footerHtml: true
 ---
-
 ## Hi ~~ 👋
 
 [![QQ](https://img.shields.io/badge/QQ-16003373300-3e7f9g?logo=Tencent-QQ)](tencent://message/?uin=1600337300)
@@ -46,7 +54,6 @@ footerHtml: true
     <img style="float: right" src="https://github-readme-stats.vercel.app/api?username=shentuzhigang&show_icons=true&&theme=dark&locale=cn" alt="Github Readme Stats">
 </a>
 
-[![shentuzhigang](https://github.com/shentuzhigang/shentuzhigang/blob/main/gitartwork.svg)](https://github.com/shentuzhigang/）
 - 👋 Hi, I’m @shentuzhigang
 - 👀 I’m interested in ...
 - 🔭 I’m currently working on ...
