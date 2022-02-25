@@ -1,5 +1,5 @@
 
-[![QQ](https://img.shields.io/badge/QQ-16003373300-67ab82?logo=Tencent-QQ)](tencent://message/?uin=1600337300)
+[![QQ](https://img.shields.io/badge/QQ-1600337300-67ab82?logo=Tencent-QQ)](tencent://message/?uin=1600337300)
 [![CSDN](https://img.shields.io/badge/CSDN-Starzkg-67ab82?logo=bloglovin)](https://shentuzhigang.blog.csdn.net)
 [![GitHub](https://img.shields.io/badge/GitHub-shentuzhigang-67ab82?logo=github)](https://github.com/shentuzhigang)
 
