@@ -18,7 +18,11 @@
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 
-![Alt](https://repobeats.axiom.co/api/embed/b9481013ff9e40caa0f99e2910a6331eaf754bc3.svg "Repobeats analytics image")
+<div align='center'>
+    <a href="https://github.com/shentuzhigang">
+        <img align='center' src="https://repobeats.axiom.co/api/embed/b9481013ff9e40caa0f99e2910a6331eaf754bc3.svg" alt="Repobeats analytics image">
+    </a>
+</div>
 
 <div align='center'>
     <a href="https://github.com/shentuzhigang">
