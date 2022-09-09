@@ -20,10 +20,6 @@ jobs:
       UA_ID: ${{ secrets.UA_ID }}
       NODE_VERSION: '16'
 
-    defaults:
-      run:
-        working-directory: ./.vuepress
-
     steps:
       - uses: actions/checkout@v3
         with:
