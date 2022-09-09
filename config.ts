@@ -13,9 +13,13 @@ import locales from './locales'
 const isProd = process.env.NODE_ENV === 'production'
 
 export default defineUserConfig({
-  lang: 'zh-CN',
   title: 'Starzkg',
   description: '你已经是一个成熟的程序猿了，要学会自己DEBUG了。',
+  lang: 'zh-CN',
+  dest: 'dest',
+  public: 'public',
+  cache: '.cache',
+  temp: '.temp',
   // site-level locales config
   locales: {
     '/': {
