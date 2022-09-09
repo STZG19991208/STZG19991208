@@ -28,6 +28,8 @@ jobs:
 
       - name: Install pnpm
         uses: pnpm/action-setup@v2
+        with:
+          dest: ./.vuepress
 
       - name: Setup Node.js
         uses: actions/setup-node@v2
@@ -37,7 +39,6 @@ jobs:
           cache: pnpm
 
       - name: Install dependencies
-        working-directory: .vuepress
         run: pnpm install --frozen-lockfile
 
       # 运行构建脚本
