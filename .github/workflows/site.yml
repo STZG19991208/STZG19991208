@@ -23,6 +23,11 @@ jobs:
       NODE_VERSION: '16'
 
     steps:
+      - name: Checkout Vuepress
+        uses: actions/checkout@v3
+        with:
+          ref: vuepress
+
       - name: Checkout Site
         uses: actions/checkout@v3
         with:
@@ -30,11 +35,6 @@ jobs:
           path: ${{ env.sourceDir }}
           # “最近更新时间” 等 git 日志相关信息，需要拉取全部提交记录
           fetch-depth: 0
-
-      - name: Checkout Vuepress
-        uses: actions/checkout@v3
-        with:
-          ref: vuepress
 
       - name: Install pnpm
         uses: pnpm/action-setup@v2
