@@ -26,7 +26,7 @@ jobs:
       - name: Checkout Site
         uses: actions/checkout@v3
         with:
-          path: ${{ sourceDir }}
+          path: ${{ env.sourceDir }}
           # “最近更新时间” 等 git 日志相关信息，需要拉取全部提交记录
           fetch-depth: 0
 
