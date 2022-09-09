@@ -46,7 +46,6 @@ footerHtml: true
     <img style="float: right" src="https://github-readme-stats.vercel.app/api?username=shentuzhigang&show_icons=true&&theme=dark&locale=cn" alt="Github Readme Stats">
 </a>
 
-[![shentuzhigang](https://github.com/shentuzhigang/shentuzhigang/blob/main/gitartwork.svg)](https://github.com/shentuzhigang/）
 - 👋 Hi, I’m @shentuzhigang
 - 👀 I’m interested in ...
 - 🔭 I’m currently working on ...
@@ -57,3 +56,20 @@ footerHtml: true
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
+
+<div align='center'>
+    <a href="https://github.com/shentuzhigang">
+        <img align='center' src="https://repobeats.axiom.co/api/embed/b9481013ff9e40caa0f99e2910a6331eaf754bc3.svg" alt="Repobeats analytics image">
+    </a>
+</div>
+
+<div align='center'>
+    <a href="https://github.com/shentuzhigang">
+        <img align='center' src="https://github.com/shentuzhigang/shentuzhigang/raw/main/gitartwork.svg" alt="Github Art Work">
+    </a>
+</div>
+
+<!---
+shentuzhigang/shentuzhigang is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+--->
