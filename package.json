@@ -1,9 +1,10 @@
 {
+  "name": "shentuzhigang-vuepress",
   "private": true,
   "scripts": {
-    "build": "vuepress-cli build site --clean-cache",
+    "build": "vuepress build site --clean-cache",
     "clean": "rimraf .temp .cache dist",
-    "dev": "vuepress-cli dev site --clean-cache",
+    "dev": "vuepress dev site --clean-cache",
     "serve": "anywhere -s -h localhost -d dist"
   },
   "repository": {
