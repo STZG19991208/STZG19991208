@@ -19,13 +19,14 @@ jobs:
       GA_ID: ${{ secrets.GA_ID }}
       BA_ID: ${{ secrets.BA_ID }}
       UA_ID: ${{ secrets.UA_ID }}
+      sourceDir: site
       NODE_VERSION: '16'
 
     steps:
       - name: Checkout Site
         uses: actions/checkout@v3
         with:
-          path: site
+          path: ${{ sourceDir }}
           # “最近更新时间” 等 git 日志相关信息，需要拉取全部提交记录
           fetch-depth: 0
 
