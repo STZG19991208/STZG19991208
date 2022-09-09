@@ -11,7 +11,7 @@
      steps:
        - uses: actions/checkout@v2
          with:
-          repo: shentuzhigang/shentuzhigang.github.io
+          repository: shentuzhigang/shentuzhigang.github.io
           ref: gh-pages
        - uses: jasineri/gitartwork@v1
          with:
