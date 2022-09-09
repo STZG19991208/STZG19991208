@@ -2,9 +2,9 @@
   "name": "shentuzhigang-vuepress",
   "private": true,
   "scripts": {
-    "build": "vuepress build ${sourceDir} --config config.ts --dest dist --temp .temp --clean-cache",
+    "build": "vuepress build site --config config.ts --dest dist --temp .temp --clean-cache",
     "clean": "rimraf .temp .cache dist",
-    "dev": "vuepress dev ${sourceDir} --config config.ts --temp .temp --clean-cache",
+    "dev": "vuepress dev site --config config.ts --temp .temp --clean-cache",
     "serve": "anywhere -s -h localhost -d dist"
   },
   "repository": {
