@@ -1,17 +1,14 @@
+
 ## Hi ~~ 👋
 
 [![QQ](https://img.shields.io/badge/QQ-16003373300-3e7f9g?logo=Tencent-QQ)](tencent://message/?uin=1600337300)
 [![CSDN](https://img.shields.io/badge/CSDN-Starzkg-3e7f9g?logo=bloglovin)](https://shentuzhigang.blog.csdn.net)
 [![GitHub](https://img.shields.io/badge/GitHub-shentuzhigang-3e7f9g?logo=github)](https://github.com/shentuzhigang)
 
-<div align='center'>
-  <a style="display: block"  href="https://github.com/shentuzhigang">
-    <img src="https://github-readme-stats.vercel.app/api?username=shentuzhigang&show_icons=true&&theme=dark&locale=cn" alt="Github Readme Stats">
-  </a>
-  <a  style="display: block; margin: 0 auto; margin-top:10px;" href="https://github.com/shentuzhigang">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shentuzhigang&theme=dark&hide_border=true&locale=cn&layout=compact" alt="Github Readme Stats">
-  </a>
-</div>
+<a href="https://github.com/shentuzhigang">
+    <img style="float: right" src="https://github-readme-stats.vercel.app/api?username=shentuzhigang&show_icons=true&&theme=dark&hide_border=true&locale=cn" alt="Github Readme Stats">
+</a>
+
 
 - 👋 Hi, I’m @shentuzhigang
 - 👀 I’m interested in ...
@@ -24,7 +21,34 @@
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 
-![shentuzhigang](https://github-readme-stats.vercel.app/api/pin?username=shentuzhigang&repo=shentuzhigang&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
+<div>
+    <a href="https://github.com/shentuzhigang">
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shentuzhigang&theme=dark&hide_border=true&locale=cn&layout=compact" alt="Github Readme Stats">
+    </a>
+</div>
+
+<div>
+    <a href="https://github.com/shentuzhigang">
+        <img src="https://github-readme-stats.vercel.app/api/wakatime?username=shentuzhigang&theme=dark&hide_border=true&locale=cn" alt="Github Readme Stats">
+    </a>
+</div>
+
+## 项目 🚀
+
+<div align='center'>
+    <a href="https://github.com/shentuzhigang/shentuzhigang">
+        <img src="https://github-readme-stats.vercel.app/api/pin?username=shentuzhigang&repo=shentuzhigang&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515" alt="shentuzhigang">
+    </a>
+    <a href="https://github.com/vuepress-star/vuepress-theme-star">
+        <img src="https://github-readme-stats.vercel.app/api/pin?username=vuepress-star&repo=vuepress-theme-star&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515" alt="shentuzhigang">
+    </a>
+    <a href="https://github.com/shentuzhigang/myzstu">
+        <img src="https://github-readme-stats.vercel.app/api/pin?username=shentuzhigang&repo=myzstu&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515" alt="shentuzhigang">
+    </a>
+    <a href="https://github.com/shentuzhigang/nexus-client-go">
+        <img src="https://github-readme-stats.vercel.app/api/pin?username=shentuzhigang&repo=nexus-client-go&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515" alt="shentuzhigang">
+    </a>
+</div>
 
 <div align='center'>
     <a href="https://github.com/shentuzhigang">
