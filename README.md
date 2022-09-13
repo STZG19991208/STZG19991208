@@ -43,7 +43,7 @@ footerHtml: true
 [![GitHub](https://img.shields.io/badge/GitHub-shentuzhigang-3e7f9g?logo=github)](https://github.com/shentuzhigang)
 
 <a href="https://github.com/shentuzhigang">
-    <img style="float: right" src="https://github-readme-stats.vercel.app/api?username=shentuzhigang&show_icons=true&&theme=dark&locale=cn" alt="Github Readme Stats">
+    <img align='right' src="https://github-readme-stats.vercel.app/api?username=shentuzhigang&show_icons=true&&theme=dark&hide_border=true&locale=cn" alt="Github Readme Stats">
 </a>
 
 - 👋 Hi, I’m @shentuzhigang
@@ -57,15 +57,34 @@ footerHtml: true
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 
-<a href="https://github.com/shentuzhigang">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shentuzhigang&theme=dark&hide_border=true&locale=cn&layout=compact" alt="Github Readme Stats">
-</a>
+<div>
+    <a href="https://github.com/shentuzhigang">
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shentuzhigang&theme=dark&hide_border=true&locale=cn&layout=compact" alt="Github Readme Stats">
+    </a>
+</div>
 
-<a href="https://github.com/shentuzhigang">
-    <img src="https://github-readme-stats.vercel.app/api/wakatime?username=shentuzhigang&theme=dark&hide_border=true&locale=cn" alt="Github Readme Stats">
-</a>
+<div>
+    <a href="https://github.com/shentuzhigang">
+        <img src="https://github-readme-stats.vercel.app/api/wakatime?username=shentuzhigang&theme=dark&hide_border=true&locale=cn" alt="Github Readme Stats">
+    </a>
+</div>
 
-![shentuzhigang](https://github-readme-stats.vercel.app/api/pin?username=shentuzhigang&repo=shentuzhigang&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
+## 项目 🚀
+
+<div align='center'>
+    <a href="https://github.com/shentuzhigang/shentuzhigang">
+        <img src="https://github-readme-stats.vercel.app/api/pin?username=shentuzhigang&repo=shentuzhigang&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515" alt="shentuzhigang">
+    </a>
+    <a href="https://github.com/vuepress-star/vuepress-theme-star">
+        <img src="https://github-readme-stats.vercel.app/api/pin?username=vuepress-star&repo=vuepress-theme-star&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515" alt="shentuzhigang">
+    </a>
+    <a href="https://github.com/shentuzhigang/myzstu">
+        <img src="https://github-readme-stats.vercel.app/api/pin?username=shentuzhigang&repo=myzstu&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515" alt="shentuzhigang">
+    </a>
+    <a href="https://github.com/shentuzhigang/nexus-client-go">
+        <img src="https://github-readme-stats.vercel.app/api/pin?username=shentuzhigang&repo=nexus-client-go&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515" alt="shentuzhigang">
+    </a>
+</div>
 
 <div align='center'>
     <a href="https://github.com/shentuzhigang">
