@@ -6,7 +6,7 @@
 [![GitHub](https://img.shields.io/badge/GitHub-shentuzhigang-3e7f9g?logo=github)](https://github.com/shentuzhigang)
 
 <a href="https://github.com/shentuzhigang">
-    <img style="float: right" src="https://github-readme-stats.vercel.app/api?username=shentuzhigang&show_icons=true&&theme=dark&hide_border=true&locale=cn" alt="Github Readme Stats">
+    <img align='right' src="https://github-readme-stats.vercel.app/api?username=shentuzhigang&show_icons=true&&theme=dark&hide_border=true&locale=cn" alt="Github Readme Stats">
 </a>
 
 - 👋 Hi, I’m @shentuzhigang
