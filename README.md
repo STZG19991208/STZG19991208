@@ -4,7 +4,7 @@
 [![CSDN](https://img.shields.io/badge/CSDN-Starzkg-3e7f9g?logo=bloglovin)](https://shentuzhigang.blog.csdn.net)
 [![GitHub](https://img.shields.io/badge/GitHub-shentuzhigang-3e7f9g?logo=github)](https://github.com/shentuzhigang)
 
-<div style="float: right; margin: 0 auto;">
+<div align='center'>
   <a style="display: block"  href="https://github.com/shentuzhigang">
     <img src="https://github-readme-stats.vercel.app/api?username=shentuzhigang&show_icons=true&&theme=dark&locale=cn" alt="Github Readme Stats">
   </a>
