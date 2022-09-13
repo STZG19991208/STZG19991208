@@ -57,6 +57,16 @@ footerHtml: true
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 
+<a href="https://github.com/shentuzhigang">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shentuzhigang&theme=dark&hide_border=true&locale=cn&layout=compact" alt="Github Readme Stats">
+</a>
+
+<a href="https://github.com/shentuzhigang">
+    <img src="https://github-readme-stats.vercel.app/api/wakatime?username=shentuzhigang&theme=dark&hide_border=true&locale=cn" alt="Github Readme Stats">
+</a>
+
+![shentuzhigang](https://github-readme-stats.vercel.app/api/pin?username=shentuzhigang&repo=shentuzhigang&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
+
 <div align='center'>
     <a href="https://github.com/shentuzhigang">
         <img align='center' src="https://repobeats.axiom.co/api/embed/b9481013ff9e40caa0f99e2910a6331eaf754bc3.svg" alt="Repobeats analytics image">
