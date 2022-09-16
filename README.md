@@ -38,7 +38,7 @@ footerHtml: true
 
 ## Hi ~~ 👋
 
-[![QQ](https://img.shields.io/badge/QQ-16003373300-3e7f9g?logo=Tencent-QQ)](tencent://message/?uin=1600337300)
+[![QQ](https://img.shields.io/badge/QQ-1600337300-3e7f9g?logo=Tencent-QQ)](tencent://message/?uin=1600337300)
 [![CSDN](https://img.shields.io/badge/CSDN-Starzkg-3e7f9g?logo=bloglovin)](https://shentuzhigang.blog.csdn.net)
 [![GitHub](https://img.shields.io/badge/GitHub-shentuzhigang-3e7f9g?logo=github)](https://github.com/shentuzhigang)
 
