@@ -28,10 +28,10 @@ links:
     url: https://weibo.com/u/5428963803  
   - text: Steam
     icon: Steam
-    url: https://weibo.com/u/5428963803
+    url: https://steamcommunity.com/profiles/76561198877744386
   - text: 推特
     icon: Twitter
-    url: #  
+    url: https://twitter.com/shentuzhigang 
 footer: <a href="http://beian.miit.gov.cn/" target="_blank">浙ICP备19031217号</a> | MIT Licensed | Copyright © 2021-present Starzkg
 footerHtml: true
 ---
