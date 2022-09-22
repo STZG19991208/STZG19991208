@@ -42,6 +42,8 @@ footerHtml: true
 [![CSDN](https://img.shields.io/badge/CSDN-Starzkg-3e7f9g?logo=bloglovin)](https://shentuzhigang.blog.csdn.net)
 [![GitHub](https://img.shields.io/badge/GitHub-shentuzhigang-3e7f9g?logo=github)](https://github.com/shentuzhigang)
 
+[![wakatime](https://wakatime.com/badge/user/b394af18-5613-4397-acbe-c4fc77e92229.svg)](https://wakatime.com/@b394af18-5613-4397-acbe-c4fc77e92229)
+
 <a href="https://github.com/shentuzhigang">
     <img align='right' src="https://github-readme-stats.vercel.app/api?username=shentuzhigang&show_icons=true&&theme=dark&hide_border=true&locale=cn" alt="Github Readme Stats">
 </a>
