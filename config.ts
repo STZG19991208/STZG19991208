@@ -3,9 +3,8 @@ import { starTheme } from '@starzkg/vuepress-theme-star'
 import { viteBundler } from '@vuepress/bundler-vite'
 import { webpackBundler } from '@vuepress/bundler-webpack'
 import { docsearchPlugin } from '@vuepress/plugin-docsearch'
-import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
-import { baiduAnalyticsPlugin } from '@starzkg/vuepress-plugin-baidu-analytics'
-import { cnzzAnalyticsPlugin } from '@starzkg/vuepress-plugin-cnzz-analytics'
+import { analyticsPlugin } from '@starzkg/vuepress-plugin-analytics'
+import { giscusCommentPlugin } from '@starzkg/vuepress-plugin-giscus-comment'
 import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
 import { shikiPlugin } from '@vuepress/plugin-shiki'
 import { path } from '@vuepress/utils'
@@ -34,13 +33,17 @@ export default defineUserConfig({
     },
   },
   theme: starTheme({
-    logo: '/logo.png',
+    logo: 'https://i.postimg.cc/wMSmbsmF/logo.png',
+    themePlugins: {
+      pwa: {},
+      markdown: true,
+    },
     // theme-level locales config
     locales: locales
   }),
   bundler:
   // specify bundler via environment variable
-    process.env.DOCS_BUNDLER === 'webpack' || isProd
+    process.env.DOCS_BUNDLER === 'webpack'
       ? webpackBundler()
       : viteBundler(),
   plugins: [
@@ -95,20 +98,27 @@ export default defineUserConfig({
         },
       },
     }),
-    googleAnalyticsPlugin({
-      // we have multiple deployments, which would use different id
-      id: process.env.GA_ID,
+    analyticsPlugin({
+        google:{
+          // we have multiple deployments, which would use different id
+          id: process.env.GA_ID,
+        },
+        baidu: {
+          id: process.env.BA_ID,
+          spa: true
+        },
+        cnzz: {
+          id: process.env.UA_ID,
+          webId: "1280714941",
+          spa: true
+        }
     }),
-    baiduAnalyticsPlugin({
-      id: process.env.BA_ID,
-      spa: true
+    giscusCommentPlugin({
+      repo: 'shentuzhigang/shentuzhigang',
+      repoId: 'MDEwOlJlcG9zaXRvcnkzNjI0Nzg3ODU=',
+      category: 'Announcements',
+      categoryId: 'DIC_kwDOFZr8wc4CR0pH',
     }),
-    cnzzAnalyticsPlugin({
-      id: process.env.UA_ID,
-      webId: "1280714941",
-      spa: true
-    })
-    ,
     registerComponentsPlugin({
         componentsDir: path.resolve(__dirname, './components'),
     }),
