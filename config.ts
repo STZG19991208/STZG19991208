@@ -15,7 +15,7 @@ export default defineUserConfig({
   title: 'Starzkg',
   description: '你已经是一个成熟的程序猿了，要学会自己DEBUG了。',
   lang: 'zh-CN',
-  dest: 'dest',
+  dest: 'dist',
   public: 'public',
   cache: '.cache',
   temp: '.temp',
@@ -33,6 +33,7 @@ export default defineUserConfig({
     },
   },
   theme: starTheme({
+    repo: 'https://github.com/shentuzhigang/shentuzhigang',
     logo: 'https://i.postimg.cc/wMSmbsmF/logo.png',
     themePlugins: {
       pwa: {},
