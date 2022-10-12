@@ -20,7 +20,7 @@
   "devDependencies": {
     "@starzkg/vuepress-plugin-analytics": "1.1.2",
     "@starzkg/vuepress-theme-star": "1.0.0-beta.32",
-    "@starzkg/vuepress-plugin-giscus-comment": "1.0.0-beta.28",
+    "@starzkg/vuepress-plugin-giscus-comment": "1.1.0",
     "@types/markdown-it": "^12.2.3",
     "@vuepress/bundler-vite": "2.0.0-beta.50",
     "@vuepress/bundler-webpack": "2.0.0-beta.50",
