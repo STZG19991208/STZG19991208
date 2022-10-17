@@ -57,7 +57,7 @@
 
 <div align='center'>
     <a href="https://github.com/shentuzhigang">
-        <img align='center' src="https://github.com/shentuzhigang/shentuzhigang.github.io/raw/gh-pages/gitartwork.svg" alt="Github Art Work">
+        <img align='center' src="https://shentuzhigang.cn/gitartwork.svg" alt="Github Art Work">
     </a>
 </div>
 
