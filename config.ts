@@ -6,7 +6,6 @@ import { docsearchPlugin } from '@vuepress/plugin-docsearch'
 import { analyticsPlugin } from '@starzkg/vuepress-plugin-analytics'
 import { giscusCommentPlugin } from '@starzkg/vuepress-plugin-giscus-comment'
 import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
-import { shikiPlugin } from '@vuepress/plugin-shiki'
 import { path } from '@vuepress/utils'
 import locales from './locales'
 const isProd = process.env.NODE_ENV === 'production'
@@ -123,7 +122,5 @@ export default defineUserConfig({
     registerComponentsPlugin({
         componentsDir: path.resolve(__dirname, './components'),
     }),
-    // only enable shiki plugin in production mode
-    isProd ? shikiPlugin({ theme: 'dark-plus' }) : [],
   ],
 })
