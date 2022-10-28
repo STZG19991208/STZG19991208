@@ -19,7 +19,7 @@
   "homepage": "https://github.com/shentuzhigang/shentuzhigang#README.md",
   "devDependencies": {
     "@starzkg/vuepress-plugin-analytics": "1.1.4",
-    "@starzkg/vuepress-theme-star": "1.0.0-beta.34",
+    "@starzkg/vuepress-theme-star": "1.0.0-beta.35",
     "@starzkg/vuepress-plugin-giscus-comment": "1.0.3",
     "@vuepress/bundler-vite": "2.0.0-beta.53",
     "@vuepress/bundler-webpack": "2.0.0-beta.53",
