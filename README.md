@@ -12,28 +12,27 @@ links:
     icon: csdn
     url: https://shentuzhigang.blog.csdn.net
   - text: GitHub
-    icon: Github
+    icon: github
     url: https://github.com/shentuzhigang  
   - text: Gitee
-    icon: Gitee
+    icon: gitee
     url: https://gitee.com/shentuzhigang
   - text: 邮箱
-    icon: Email
+    icon: email
     url: mailto:shentuzhigang@shentuzhigang.cn    
   - text: 知乎
-    icon: Zhihu
+    icon: zhihu
     url: https://www.zhihu.com/people/shen-tu-zhi-gang  
   - text: 微博
-    icon: Weibo
+    icon: weibo
     url: https://weibo.com/u/5428963803  
   - text: Steam
-    icon: Steam
+    icon: steam
     url: https://steamcommunity.com/profiles/76561198877744386
   - text: 推特
-    icon: Twitter
+    icon: twitter
     url: https://twitter.com/shentuzhigang 
 footer: <a href="http://beian.miit.gov.cn/" target="_blank">浙ICP备19031217号</a> | MIT Licensed | Copyright © 2021-present Starzkg
-footerHtml: true
 ---
 
 ## Hi ~~ 👋
