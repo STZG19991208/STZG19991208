@@ -34,6 +34,28 @@ export default defineUserConfig({
   theme: starTheme({
     repo: 'https://github.com/shentuzhigang/shentuzhigang',
     logo: 'https://i.postimg.cc/wMSmbsmF/logo.png',
+    footer: '<a href="http://beian.miit.gov.cn/" target="_blank">浙ICP备19031217号</a> | MIT Licensed | Copyright © 2021-present Starzkg',
+    profile: {
+      name: '申屠志刚',
+      firstName: '志刚',
+      lastName: '申屠',
+      avatar:
+        'https://wpimg.wallstcn.com/f778738c-e4f8-4870-b634-56703b4acafe.gif',
+      projects: [
+        {
+          name: 'Vuepress Star',
+          link: 'https://vuepress-star.shentuzhigang.cn',
+          icon: '/images/hero.png',
+          description: 'Vuepress Star',
+        },
+        {
+          name: 'Vuepress Theme Star',
+          link: 'https://vuepress-star.shentuzhigang.cn',
+          icon: 'aim',
+          description: 'Vuepress Star',
+        },
+      ],
+    },
     themePlugins: {
       pwa: {},
       markdown: true,
