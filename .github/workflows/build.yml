@@ -1,0 +1,48 @@
+name: build
+
+on:
+  push:
+    branches:
+      - index
+    paths-ignore:
+      - '**/__tests__/**'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    env:
+      NODE_VERSION: '16'
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build
+        env:
+          NODE_OPTIONS: --max_old_space_size=8192
+        run: pnpm build
+
+      - name: Deploy to GitHub Pages
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          repo: shentuzhigang/shentuzhigang.github.io
+          target_branch: gh-pages
+          build_dir: dist
+          fqdn: shentuzhigang.cn
+        env:
+          GH_PAT: ${{ secrets.GH_PAGES_TOKEN }}
