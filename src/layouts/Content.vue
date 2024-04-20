@@ -8,7 +8,7 @@
         <div style="text-align: left; padding: 1rem">
           <p>👋 Hi, I’m @shentuzhigang</p>
           <p>👀 I’m interested in coding</p>
-          <p>🔭 I’m currently working on weidian</p>
+          <p>🔭 I’m currently working on fliggy of Alibaba</p>
           <p>🌱 I’m currently learning ABC (AI、BIG DATA、CLOUD)</p>
           <p>👯 I’m looking to collaborate on full stack</p>
           <p>🤔 I’m looking for help with study</p>
